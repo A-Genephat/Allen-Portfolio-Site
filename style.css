@@ -1,0 +1,357 @@
+* {
+    margin:0;
+    padding:0;
+}
+/* all of this CSS styles the homepage */
+
+
+/* animation for everything on my page except my navigation bar */
+@keyframes page-load {
+    from {
+        opacity:0;
+        transform:rotateX(-10deg);
+    }
+
+    to {
+        opacity:1;
+        transform:rotateX(0);
+    }
+}
+
+
+/* media query for homepage, i need to make it look good on a mobile device */
+
+@media all and (max-width:916.00px) {
+
+    .image-and-description img {
+        width:80%;
+        height:80%;
+    }
+
+    .image-and-description {
+        flex-direction: column;
+    }
+    
+
+}
+
+@media all and (max-width:1009px) {
+
+    .social-media-links a img {
+        width:30px;
+        height:30px;
+    }
+}
+
+@media all and (max-width:955px) {
+
+    .social-media-links a img {
+        width:20px;
+        height:20px;
+    }
+}
+
+@media all and (max-width:901px) {
+    .social-media-links a img {
+        width:15px;
+        height:15px;
+    }
+}
+
+
+@media all and (max-width:883px) {
+    #footer p {
+        text-align:left;
+    }
+
+    .social-media-links a img {
+        display:none;
+    }
+}
+
+@media all and (max-width:600px) {
+    .logo {
+        width:40px;
+        height:40px;
+        float:left;
+        padding:0;
+        margin:0;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-left:20px;
+    }
+}
+
+
+body {
+    animation: page-load 0.75s;
+}
+
+nav {
+    display:flex;
+    justify-content:space-between;
+    margin-top:10px;
+    animation: nav 0.75s ease-in; /* this avtivates the animation */
+}
+
+nav a {
+    text-decoration:none;
+    text-align:center;
+}
+
+.logo {
+    margin-left:50px;
+    color:black;
+    letter-spacing: 3px;
+    font-size:20px;
+    font-family: 'Jost', sans-serif;
+    margin-bottom:10px;
+    border:#ffa58a solid 2px;
+    border-radius:50%;
+}
+
+nav ul li {
+    list-style:none;
+    display:inline-block;
+    margin-right:50px;
+    padding-top:22px;
+    font-weight:bold;
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+    transition:0.5s;
+}
+
+nav ul li:hover {
+    color:#ffa58a;
+}
+
+.title {
+    margin-top:100px;
+    padding-left:50px;
+    font-size: 55px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    color:#ffa58a;
+    -webkit-text-stroke:0.5px #ffa58a; /* adds the stroke to the transparent text */
+}
+
+.description {
+    padding-left:50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    font-style:italic;
+}
+
+.image-and-description {
+    display:flex;
+    margin-top:80px;
+    background-color:#e8fbff;
+}
+
+#social-media {
+    background-color:#353535;
+}
+
+.social-media-links {
+    display:flex;
+    padding-top:40px;
+    padding-bottom:20px;
+    justify-content: space-between;
+    margin-right:400px;
+    margin-left:400px;
+}
+
+.social-media-links img {
+    width:40px;
+    height:40px;
+}
+
+#footer {
+    color:white;
+    font-family: 'montserrat', sans-serif;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#353535;
+    font-weight:bold;
+    font-size:15px;
+}
+
+.copyright {
+    font-weight:100;
+    font-size:12px;
+    text-align:center;
+}
+
+/* this next part of the CSS will style the about page */
+
+#header2 {
+    background-color:white;
+    position:sticky;
+    top:0;
+}
+
+.memoji {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.what-i-do {
+    padding-left:100px;
+    padding-right:100px;
+    margin-top:30px;
+    margin-bottom:20px;
+    font-family: 'Barlow', sans-serif;
+    letter-spacing:2px;
+    text-align:center;
+    font-weight:100px;
+    font-size:13px;
+}
+
+.button1 {
+    width: 12.5%;
+    margin-top:50px;
+    background-color: #d6d6d6; 
+    font-size:15px;
+    border:transparent;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-family: 'montserrat', sans-serif;
+    font-weight:700;
+    border-radius:20px;
+    margin-left: 43%;
+    margin-bottom:30px;
+    transition:0.5s;
+}
+
+.button1:hover {
+    background-color:#353535;
+    color:white;
+}
+
+
+#resume h3 {
+    font-size:40px;
+    color:#ffa58a;
+    font-family: 'montserrat', sans-serif;
+    margin-top:50px;
+    margin-left:100px;
+}
+
+#resume p {
+    font-family: 'montserrat', sans-serif;
+    font-weight:900;
+    margin-left:100px;
+}
+
+#resume img {
+    filter:blur(5px);
+    transition: 0.3s;
+    margin-left:25px;
+}
+
+#resume img:hover {
+    filter:blur(0px);
+}
+
+
+/* this part of the CSS will style the contact page */
+
+/* 3 images all side to side */
+
+
+#header3 nav {
+    margin-bottom:100px;
+}
+
+.img-gallery {
+    margin-bottom:50px;
+    display:flex;
+    justify-content:space-between;
+    margin-left:150px;
+    margin-right:150px;
+    padding:30px;
+}
+
+.contact-image-1, .contact-image-2, .contact-image-3 {
+    border:solid 5px white;
+    border-radius:20px;
+}
+
+#gallery {
+    background:linear-gradient(white,#e8fbff, #ffa58a, white);
+}
+
+#contact-socials {
+    display:flex;
+    justify-content:space-between;
+    margin-left:150px;
+    margin-right:150px;
+    align-items:center;
+    font-family: 'Jost', sans-serif;
+    margin-bottom:50px;
+}
+
+/* this part will cover all the css for the projects page */
+
+#allprojects {
+    background-color:#e8fbff;
+    padding-top:50px;
+}
+
+.projects-title {
+    margin-top:100px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    color:#ffa58a;
+    text-align:center;
+    font-size:150px;
+}
+
+.projects-intro {
+    margin-top:10px;
+    font-family: 'Montserrat', sans-serif;
+    text-align:center;
+    font-weight:800;
+    margin-bottom:60px;
+    text-align:center;
+    font-size:40px;
+}
+
+.university-img {
+  margin-left: auto;
+  margin-right: auto;
+  width:40%;
+  margin-bottom:30px;
+}
+
+.university-img a img {
+    opacity:1;
+    transition: 0.3s;
+}
+
+.university-img a img:hover {
+    opacity:0.5;
+}
+
+.content p {
+    text-align:center;
+    font-size:30px;
+    margin-bottom:20px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+}
+
+.button-to-go-down a {
+    opacity:0.7;
+    transition:0.3s;
+}
+
+.button-to-go-down a:hover {
+    opacity:1;
+}
