@@ -105,7 +105,7 @@
 
 body {
     animation: page-load 0.75s;
-    cursor: url('../myportfoliosite/images/cursor.png'), auto;
+    cursor: url('./images/cursor.png'), auto;
 }
 
 html {
@@ -176,7 +176,7 @@ nav ul li:hover {
 }
 
 .title:hover {
-    cursor: url('../myportfoliosite/images/cursor1.png'), auto;
+    cursor: url('./images/cursor1.png'), auto;
 }
 
 .description {
@@ -194,7 +194,7 @@ nav ul li:hover {
 }
 
 #about-me:hover {
-    cursor: url('../myportfoliosite/images/cursor1.png'), auto;
+    cursor: url('./images/cursor1.png'), auto;
 }
 
 #about-me h1 {
