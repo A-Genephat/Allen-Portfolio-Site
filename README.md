@@ -26,4 +26,5 @@ This website was created to practice HTML and CSS skills and at the same time sh
 
 ![Screenshot (7)](https://github.com/A-Genephat/Allen-Portfolio-Site/assets/146023702/203eb57a-a9d5-4a41-b654-5e23eda18a93)
 
-
+# Additional notes
+Website is not complete. Projects to showcase or a work in progress.
