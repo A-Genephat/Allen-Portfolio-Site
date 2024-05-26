@@ -15,3 +15,5 @@ This website was created to practice HTML and CSS skills and at the same time sh
 - GitHub
 
 # Website Preview
+
+![Screenshot (4)](https://github.com/A-Genephat/Allen-Portfolio-Site/assets/146023702/b347348e-dda4-436d-9541-4ad780ebf298)
