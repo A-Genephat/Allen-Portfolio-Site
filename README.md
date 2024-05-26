@@ -1,7 +1,9 @@
 # Portfolio Website
-Portfolio website
+Created in March 2024
 
-This website was created to practice HTML and CSS skills and showcase my skills
+# About the project
+
+This website was created to practice HTML and CSS skills and at the same time showcase my projects that are currently a work in progress.
 
 # Technologies used
 HTML 5
