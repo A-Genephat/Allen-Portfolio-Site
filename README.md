@@ -7,11 +7,8 @@ This website was created to practice HTML and CSS skills and at the same time sh
 
 # Technologies used
 *HTML 5
-
 *CSS 3
-
 *Visual Studio Code
-
 *GitHub
 
 # Website Preview
