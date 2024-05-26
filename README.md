@@ -14,6 +14,9 @@ This website was created to practice HTML and CSS skills and at the same time sh
 
 - GitHub
 
+# Additional notes
+Website is not complete. Projects to showcase or a work in progress.
+
 # Website Preview
 
 ![Screenshot (4)](https://github.com/A-Genephat/Allen-Portfolio-Site/assets/146023702/b347348e-dda4-436d-9541-4ad780ebf298)
@@ -25,6 +28,3 @@ This website was created to practice HTML and CSS skills and at the same time sh
 ![Screenshot (6)](https://github.com/A-Genephat/Allen-Portfolio-Site/assets/146023702/8f285214-f713-460c-90c1-2d397cbfc1c2)
 
 ![Screenshot (7)](https://github.com/A-Genephat/Allen-Portfolio-Site/assets/146023702/203eb57a-a9d5-4a41-b654-5e23eda18a93)
-
-# Additional notes
-Website is not complete. Projects to showcase or a work in progress.
